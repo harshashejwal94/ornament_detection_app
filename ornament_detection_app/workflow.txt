@@ -1,0 +1,27 @@
+workflow to run stock tred prediction project
+
+1. Go to virtual env activate it
+
+ 1.How to create venv 
+-    1.In cmd type  
+		python -m venv venv (one time run)
+     2.Go to venv by commad  
+		cd venv
+     		cd Scripts
+     		activate
+
+2. How to run the code
+
+2. To download dependent library on cmd -
+		cd ..
+		cd .. 
+		pip install -r requirements.txt (one time run)
+
+3. Go to project folder - App folder, 
+		cd project_folder
+		cd App
+
+4. Run  command in App directry on cmd - 
+		streamlit run app.py
+
+5. Then application will run smoothly.
